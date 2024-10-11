@@ -1,0 +1,113 @@
+/* Mobile Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Light blue background */
+    background-image: url('images/background-pattern.png'); /* Background pattern */
+    background-size: cover; /* Cover the entire background */
+    background-attachment: fixed; /* Fixed background */
+    padding: 0; 
+    margin: 0; 
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px; /* Increased padding for better spacing */
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 10; /* Ensure header is above background */
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    font-size: 1.1rem; /* Slightly larger font for links */
+}
+
+nav ul li a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Main styling */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.signup-form {
+    background: white;
+    padding: 30px; /* Increased padding for comfort */
+    border-radius: 12px; /* More rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+    max-width: 400px; /* Set a max width for the form */
+    width: 100%; /* Full width for smaller screens */
+}
+
+/* Button styling */
+button {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded edges for buttons */
+    padding: 10px 15px; /* Added padding for better click area */
+    font-size: 1rem; /* Larger font for button text */
+    border: none; /* Remove border */
+    transition: background-color 0.3s, transform 0.3s; /* Added transform for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Media Queries */
+@media (min-width: 600px) {
+    .signup-form {
+        width: 70%;
+    }
+}
+
+@media (min-width: 900px) {
+    .signup-form {
+        width: 50%;
+    }
+}
+
+h1 {
+    font-size: 2.8rem; /* Larger title */
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.6rem; /* Larger subtitle */
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1rem; /* Slightly larger paragraph text */
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent footer */
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
