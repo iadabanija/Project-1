@@ -21,6 +21,10 @@ header {
 
 nav {
     margin-bottom: 20px;
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #e0f7fa
 }
 
 nav ul {
