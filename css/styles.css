@@ -143,7 +143,7 @@ h1 {
 h2 {
     font-size: 1.8rem; /* Increase subtitle font size */
     font-weight: 600; /* Bolder font weight */
-    color: #007BFF; /* Match color with main heading for consistency */
+    text-align: center;
 }
 
 p {
