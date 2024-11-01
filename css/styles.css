@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 /* Mobile Styles */
 body {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     background-color: #e0f7fa; /* Light blue background */
     background-image: url('images/background-pattern.png'); /* Background pattern */
     background-size: cover; /* Cover the entire background */
