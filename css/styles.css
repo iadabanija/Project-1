@@ -113,6 +113,12 @@ button:hover {
     padding: 10px 20px; /* Adds some padding for better appearance */
 }
 
+.signup-form label {
+    font-size: 1.1rem; /* Slightly larger font for form labels */
+    font-weight: 600; /* Bolder font weight for emphasis */
+    color: #333; /* Dark color for better readability */
+}
+
 /* Media Queries */
 @media (max-width: 599px) { .signup-form input { width: 90%; } } 
 @media (min-width: 600px) {
@@ -127,19 +133,21 @@ button:hover {
     }
 }
 
+/* Enhanced readability for headings and labels */
 h1 {
-    font-size: 2.8rem; /* Larger title */
-    margin-bottom: 10px;
+    font-size: 3rem; /* Larger font size for main heading */
+    font-weight: 700; /* Bolder font weight */
+    color: #007BFF; /* Slightly darker color for contrast */
 }
 
 h2 {
-    font-size: 1.6rem; /* Larger subtitle */
-    margin-bottom: 15px;
+    font-size: 1.8rem; /* Increase subtitle font size */
+    font-weight: 600; /* Bolder font weight */
+    color: #007BFF; /* Match color with main heading for consistency */
 }
 
 p {
-    font-size: 1.1rem; /* Slightly larger paragraph text */
-    margin-bottom: 20px;
+    font-size: 1.15rem; /* Increase paragraph font size for readability */
 }
 
 footer {
