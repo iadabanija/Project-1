@@ -114,6 +114,12 @@ button:hover {
 }
 
 /* Media Queries */
+@media (max-width: 599px) { .signup-form input { width: 90%; } } 
+@media (min-width: 600px) {
+    .signup-form {
+        width: 70%;
+    }
+}
 
 @media (min-width: 900px) {
     .signup-form {
